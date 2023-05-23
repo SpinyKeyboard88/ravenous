@@ -1,0 +1,30 @@
+.business-card {
+    flex-direction: column;
+
+    img {
+        width: 300px;
+    }
+
+    margin: 0px 25px;
+    padding: 20px 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    line-height: 2%;
+
+
+    .left {
+        font-size: x-small;
+
+    }
+
+    .right {
+        .business-category {
+            font-size: medium;
+        }
+
+        font-size: x-small;
+    }
+}
