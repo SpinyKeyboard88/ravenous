@@ -1,12 +1,10 @@
 import React from "react";
 import Business from "../business/Business";
 
-const list = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+function BusinessList(props) {
 
-function BusinessList() {
-
-    const display = list.map((i) =>
-        <a>{<Business />}</a>
+    const display = props.items.map((i) =>
+        <a><Business item={i} /></a>
     )
 
     return (

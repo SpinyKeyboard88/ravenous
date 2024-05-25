@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from 'react';
+
 
 
 function SearchBar() {
+
+    const [filter, setFilter] = useState('');
+    const [searchBusiness, setSearchBusiness] = useState('');
+    const [searchLocation, setSearchLocation] = useState('');
+
     return (
         <div class="search-heading">
             <form id="filters">

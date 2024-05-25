@@ -5,14 +5,12 @@ import './business/Business.css';
 import './list/list.css'
 import './search/search.css'
 import reportWebVitals from './reportWebVitals';
-import BusinessList from './list/BusinessList';
-import SearchBar from './search/SearchBar';
+import App from './App'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SearchBar />
-    <BusinessList />
+    <App />
   </React.StrictMode >
 );
 
